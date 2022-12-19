@@ -1,19 +1,33 @@
 // import logo from './logo.svg';
-import React from "react";
+import React, { useState } from "react";
 
 import Header from "./components/Header";
 import Person from "./components/Person";
 import WrongLetters from "./components/WrongLetters";
+import Word from "./components/Word";
 
 import "./App.css";
 
+// const words = ["application", "programming", "interface", "wizard"];
+
+// let selectedWord = words[Math.floor(Math.random() * words.length)];
+
+// let playable = true;
+
+// const correctLetters = [];
+// const wrongLetters = [];
+
 function App() {
+    const [playable, setPlayable] = useState(true);
+    const [correctLetters, setCorrectLetters] = useState([]);
+    const [wrongLetters, setWrongLetters] = useState([]);
     return (
         <>
             <Header />
             <div className="game-container">
                 <Person />
                 <WrongLetters />
+                <Word />
             </div>
         </>
     );
