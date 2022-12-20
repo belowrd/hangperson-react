@@ -271,9 +271,9 @@ class GameBoard extends React.Component {
                     key={"life_" + i}
                     id={"life_" + i}
                     role="img"
-                    aria-label="gem-emoji"
+                    aria-label="heart-emoji"
                 >
-                    💎
+                    ❤️
                 </span>
             );
         }
@@ -294,19 +294,7 @@ class GameBoard extends React.Component {
                             : { display: "none" }
                     }
                 >
-                    <div id="category-header-container">
-                        <h3
-                            style={{
-                                textAlign: "center",
-                                color: "#644566",
-                                background:
-                                    "linear-gradient(to bottom, white 0, white 60%, #fedc2a 60%, #fedc2a 80%, white 60%, white 100%)",
-                                margin: "0 5px",
-                            }}
-                        >
-                            Categories
-                        </h3>
-                    </div>
+                    <div id="category-header-container"></div>
                     <div id="category-container">
                         <Category
                             categoryList={this.state.categoryList}
@@ -325,9 +313,10 @@ class GameBoard extends React.Component {
                                       this.state.selectedCategory
                                   )
                               }`
-                            : `Select a category ⬆️`}
+                            : `select a category ⬆️`}
                     </p>
-                    <p
+                    {/* CLUES HERE */}
+                    {/* <p
                         style={{
                             textAlign: "center",
                             margin: "5px",
@@ -338,7 +327,7 @@ class GameBoard extends React.Component {
                         this.state.selectedCategory !== ""
                             ? `Clue : ${this.clue}`
                             : ``}
-                    </p>
+                    </p> */}
                     <div className="separator">
                         <hr style={{ color: "transparent" }} />
                     </div>
@@ -361,12 +350,7 @@ class GameBoard extends React.Component {
                         </div>
                     </div>
                     <div id="stats-container">
-                        <p>
-                            <span role="img" aria-label="pen-emoji">
-                                ✒️
-                            </span>{" "}
-                            Score : {this.state.score}
-                        </p>
+                        <p> Score : {this.state.score}</p>
                         <p>Total Lives : {this.createLifeEmojis()}</p>
                     </div>
                     <div id="word-count-container">
@@ -382,12 +366,6 @@ class GameBoard extends React.Component {
                             </span>{" "}
                             Words remaining in this category :{" "}
                             {this.state.categoryWordCount}
-                        </p>
-                        <p>
-                            <span role="img" aria-label="dartboard-emoji">
-                                🎯
-                            </span>{" "}
-                            Total words remaining : {this.state.totalWordCount}
                         </p>
                     </div>
                 </div>

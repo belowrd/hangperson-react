@@ -6,12 +6,13 @@ function Footer() {
         <>
             <footer className="footer">
                 <p className="footer-link">
+                    <br></br>
                     <a
                         href="https://github.com/belowrd"
                         target="_blank"
                         rel="noreferrer noopener"
                     >
-                        cb github
+                        github
                     </a>
                 </p>
             </footer>

@@ -1,30 +1,30 @@
 .category {
-  margin: 0 5px;
-  border: 3px solid #333;
-  padding: 10px;
-  background: #476e81;
-  border-radius: 5px;
-  color: aliceblue;
-  height: 50px;
-  width: 150px;
-  cursor: pointer;
+    margin: 0 5px;
+    border: 3px solid #333;
+    box-shadow: 4px 4px 0 0 #063c56;
+    padding: 10px;
+    background: #2e538375;
+    color: aliceblue;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
 }
 
 .category:hover {
-  background: #8bc3e5;
+    background: #5981b575;
 }
 
 .single-category {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .selected-category {
-  background: orange;
-  color: #770737;
+    background: #00459ebc;
+    color: #ffffff;
 }
 
 .completed-category {
-  background: #e2df45 !important;
-  color: #644566;
-  pointer-events: none;
+    background: #e2df45 !important;
+    color: #644566;
+    pointer-events: none;
 }

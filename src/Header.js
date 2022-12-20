@@ -4,7 +4,7 @@ import "./Header.css";
 function Header() {
     return (
         <>
-            <div id="navbar">CUIZ</div>
+            <div id="navbar">CUIZ NIGHT</div>
         </>
     );
 }
