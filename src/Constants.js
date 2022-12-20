@@ -112,7 +112,7 @@ export const Christmas = [
 ];
 
 export const TotalWords = 70;
-export const TotalLives = 6;
+export const TotalLives = 7;
 
 export const getEmoji = (category) => {
     let emoji = "";

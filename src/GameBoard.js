@@ -351,7 +351,7 @@ class GameBoard extends React.Component {
                     </div>
                     <div id="stats-container">
                         <p> Score : {this.state.score}</p>
-                        <p>Total Lives : {this.createLifeEmojis()}</p>
+                        <p>Lives : {this.createLifeEmojis()}</p>
                     </div>
                     <div id="word-count-container">
                         <p
