@@ -7,6 +7,7 @@ body {
     background: radial-gradient(ellipse at bottom, #2e5383 0%, #090a0f 100%);
     overflow: hidden;
     filter: drop-shadow(0 0 10px white);
-    font-family: "Chivo Mono", serif;
+    font-family: "Chivo Mono", "Franklin Gothic Medium", "Arial Narrow", Arial,
+        sans-serif, serif;
     color: #ffffffd8;
 }
