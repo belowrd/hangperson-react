@@ -14,10 +14,8 @@ class GameEnd extends React.Component {
                         }
                     >
                         <p>
-                            Wow, we have run out of words to describe you as
-                            well as for the quiz, literally. You have aced this
-                            with flying colors. You are truy a champion and
-                            deserve this.
+                            Wow... You really spent a lot of time here. Thank
+                            you, I guess?
                             <span role="img" aria-label="medal-emoji">
                                 {" "}
                                 🥇{" "}
