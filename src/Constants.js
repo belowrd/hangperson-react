@@ -88,6 +88,7 @@ export const Coding = [
     "chat gpt~.",
     "artificial intelligence~.",
     "it works on my machine~.",
+    "console log~.",
 ];
 
 export const Christmas = [
