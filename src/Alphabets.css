@@ -28,6 +28,11 @@
     padding: 15px 0;
 }
 
+.alphabet:hover {
+    transform: translate(-0em, -0.1em);
+    -webkit-transform: translate(-0em, -0.1em);
+}
+
 .alphabet-span-background {
     content: "";
     height: 100%;

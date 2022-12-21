@@ -6,13 +6,13 @@
 .placeholder-label {
     text-align: center;
     font-weight: bold;
-    color: #8e5223;
+    color: #ffffffd8;
     font-size: 20px;
 }
 
 .placeholder-span {
     display: block;
     text-align: center;
-    border-bottom: 5px solid #687a76;
+    border-bottom: 5px solid #ffffff7f;
     width: 20px;
 }

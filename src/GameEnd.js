@@ -38,7 +38,7 @@ class GameEnd extends React.Component {
                                 fontWeight: "bold",
                             }}
                         >
-                            you lost...
+                            you lost 😔
                         </p>
                         <button className="btn" onClick={this.props.startGame}>
                             Play Again

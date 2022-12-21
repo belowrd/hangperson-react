@@ -3,6 +3,10 @@
 }
 
 body {
-    background: white;
+    height: 100vh;
+    background: radial-gradient(ellipse at bottom, #2e5383 0%, #090a0f 100%);
+    overflow: hidden;
+    filter: drop-shadow(0 0 10px white);
     font-family: "Chivo Mono", serif;
+    color: #ffffffd8;
 }
