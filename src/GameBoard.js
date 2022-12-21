@@ -350,7 +350,7 @@ class GameBoard extends React.Component {
                         </div>
                     </div>
                     <div id="stats-container">
-                        <p> Score : {this.state.score}</p>
+                        <p>Score : {this.state.score}</p>
                         <p>Lives : {this.createLifeEmojis()}</p>
                     </div>
                     <div id="word-count-container">
@@ -361,9 +361,6 @@ class GameBoard extends React.Component {
                                     : { opacity: 0 }
                             }
                         >
-                            <span role="img" aria-label="telescope-emoji">
-                                🔭
-                            </span>{" "}
                             Words remaining in this category :{" "}
                             {this.state.categoryWordCount}
                         </p>

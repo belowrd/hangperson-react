@@ -12,7 +12,7 @@ function Footer() {
                         target="_blank"
                         rel="noreferrer noopener"
                     >
-                        github
+                        contact
                     </a>
                 </p>
             </footer>
