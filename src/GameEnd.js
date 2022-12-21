@@ -41,7 +41,7 @@ class GameEnd extends React.Component {
                             you lost 😔
                         </p>
                         <button className="btn" onClick={this.props.startGame}>
-                            Play Again
+                            play again
                         </button>
                     </div>
                 </div>
