@@ -13,7 +13,7 @@ function App() {
             <GameBoard />
             <Footer />
             <Snowfall
-                snowflakeCount={35000}
+                snowflakeCount={350}
                 style={{
                     position: "fixed",
                     width: "100vw",
