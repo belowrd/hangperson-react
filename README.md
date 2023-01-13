@@ -2,4 +2,4 @@
 
 Final Project for SPICED by clemens 21.12.2022
 
-CUIZ NIGHT
+CUIZ NIGHT!
