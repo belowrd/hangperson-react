@@ -8,6 +8,6 @@ body {
     overflow: hidden;
     filter: drop-shadow(0 0 10px white);
     font-family: "Chivo Mono", "Franklin Gothic Medium", "Arial Narrow", Arial,
-        sans-serif, serif;
+        "Times New Roman", Times, sans-serif, serif;
     color: #ffffffd8;
 }
